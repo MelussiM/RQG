@@ -30,7 +30,6 @@ export default function HomeDiv() {
           </svg>
               {quotes.text}
             </span>
-            
           </p>
           <p className='author' id="author">
             <span className='cAuthor'>
