@@ -1,0 +1,111 @@
+.main-div{
+    background-color: yellow;
+    min-height: 100vh;
+    border: none;
+}
+.quote-box{
+    position: absolute;
+    padding-top: 0.5rem;
+    padding-bottom: 5rem;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    background-color: white;
+    width: 40%;
+    overflow-wrap: break-word;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 0.2rem;
+    display: block;
+}
+.quote-box{
+    width: 100%;
+    max-width: 400px;
+    min-height: 180px;
+    padding: 30px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.fa{
+    top: 100px;
+    display: inline-block;
+}
+.quote-box p.quote-text{
+    margin: 0;
+    font-family: arial;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    font-size: 17px;
+}
+button{
+    position: fixed;
+    font-size: 15px;
+    padding: 8px;
+    border-radius: 5px;
+    margin: 10px;
+    right: 10%;
+    top: 65%;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    transition: all 10ms ease-in-out;
+}
+button:hover{
+    background: lightgray;
+}
+.quote-box p.author{
+    position: fixed;
+    left: 60%;
+    top: 55%;
+    font-size: 15px;
+}
+a{
+    position: fixed;
+    left: 10%;
+    top: 70%;
+    font-size: 15px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+}
+.tweet{
+    width: 80px;
+    padding: 7px 0;
+    color: black;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 700ms ease-in-out;
+}
+.tweet:hover{
+    background: lightgray;
+}
+.twoo{
+    position: relative;
+    display: inline-block;
+    width: 50px;
+}
+.twoo .tooltiptext {
+    visibility: hidden;
+    font-size: 10px;
+    width: 120px;
+    background-color: transparent;
+    color: black;
+    text-align: center;
+    padding: 3px 0;
+   border: 1px solid black;
+
+    /* Position the tooltip text - see examples below! */
+    position: inherit;
+    z-index: 1;
+    top: 85%;
+    right: 45%;
+  }
+  .twoo:hover .tooltiptext {
+    visibility: visible;
+  }
+
